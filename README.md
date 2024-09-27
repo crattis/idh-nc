@@ -18,11 +18,15 @@ This version was designed and running on Debian 12.
 Debian Linux:
 
 ```sh
-chmod 755 honeypot.sh
+chmod 755 /opt/honeypot/honeypot.sh
 mkdir /var/log/honeypot
 ```
 Follow steps in ``firewall_monitoring`` for iptables to montior all inbound connections
 
+If autostarting add ``idh-nc.servce`` to /lib/systemd/system
+```sh 
+systemctl enable idh-nc.service
+```
 
 ## Usage example
 

@@ -1,7 +1,9 @@
 # idh-nc
 Intrusion Detection Honeypot running NetCat in a bash script
 
-I needed a tool to watch for potential internal attacks and easy to deply. Goals:
+I needed a tool to watch for potential internal attacks and easy to deply.
+
+Goals:
 1. The device needed easy to deploy
 2. Needed to detect connections to open ports
 3. small and hideable, that could be left onsite.

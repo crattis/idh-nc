@@ -4,7 +4,7 @@ Intrusion Detection Honeypot running NetCat in a bash script
 I needed a tool to watch for potential internal attacks and easy to deply. Goals:
 1. The device needed easy to deploy
 2. Needed to detect connections to open ports
-3. small and hidable.
+3. small and hideable, that could be left onsite.
 
 What I created was a BASH, Bourne Again Shell not Shell, to monitor connection traffic to a device that looked like a user's workstation on the netowrk.
 I used Chris Sanderers Intursion Detection Honeypot book and sample script as a starting point.

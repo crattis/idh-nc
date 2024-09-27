@@ -21,6 +21,8 @@ Debian Linux:
 chmod 755 honeypot.sh
 mkdir /var/log/honeypot
 ```
+Follow steps in ``firewall_monitoring`` for iptables to montior all inbound connections
+
 
 ## Usage example
 

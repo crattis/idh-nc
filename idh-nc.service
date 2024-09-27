@@ -1,0 +1,11 @@
+[Unit]
+Description=NetCat based Intrusion Detection Honeypot
+ConditionPathExists=/opt/honeypot/honeypot.sh
+
+[Service]
+User=root
+Restart=always
+ExecStart=/opt/honeypot/honeypot.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -17,6 +17,8 @@ This version was designed and running on Debian 12.
 
 Debian Linux:
 
+Install the script under /opt/honeypot
+
 ```sh
 chmod 755 /opt/honeypot/honeypot.sh
 mkdir /var/log/honeypot

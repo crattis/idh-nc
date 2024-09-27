@@ -19,6 +19,7 @@ Debian Linux:
 
 ```sh
 chmod 755 honeypot.sh
+mkdir /var/log/honeypot
 ```
 
 ## Usage example

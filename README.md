@@ -39,7 +39,7 @@ Your Name – [@rattis](https://twitter.com/rattis)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/crattis/idh-nc](https://github.com/crattis/)
+[https://github.com/crattis/idh-nc](https://github.com/crattis/idh-nc)
 
 ## Contributing
 

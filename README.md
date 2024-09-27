@@ -36,7 +36,7 @@ tail -f /var/log/honeypots
 
 ## Meta
 
-Your Name – [@rattis](https://twitter.com/rattis) 
+Chris J – [@rattis](https://twitter.com/rattis) 
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 

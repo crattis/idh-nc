@@ -9,7 +9,7 @@ Goals:
 3. small and hideable, that could be left onsite.
 
 What I created was a BASH, Bourne Again Shell not Shell, to monitor connection traffic to a device that looked like a user's workstation on the netowrk.
-I used [Chris Sanderers Intursion Detection Honeypot book](https://amzn.to/4eVSe4d) *amazon affiliate link, I earn from qualifying purchases.* and [his sample script](https://github.com/chrissanders/idh) as a starting point.
+I used [Chris Sanderers Intursion Detection Honeypot book](https://amzn.to/4eVSe4d) *amazon affiliate link, I earn from qualifying purchases* and [his sample script](https://github.com/chrissanders/idh) as a starting point.
 
 This version was designed and running on Debian 12.
 

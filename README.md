@@ -27,7 +27,7 @@ mkdir /var/log/honeypot
 ```
 Follow steps in ``firewall_monitoring`` for iptables to montior all inbound connections
 
-If autostarting add ``idh-nc.servce`` to /lib/systemd/system
+If autostarting add ``idh-nc.servce`` to /etc/systemd/system/
 ```sh 
 systemctl enable idh-nc.service
 ```

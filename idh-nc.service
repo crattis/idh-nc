@@ -4,7 +4,7 @@ ConditionPathExists=/opt/honeypot/honeypot.sh
 
 [Service]
 User=root
-Restart=always
+RemainAfterExit=yes
 ExecStart=/opt/honeypot/honeypot.sh
 
 [Install]

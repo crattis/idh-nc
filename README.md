@@ -11,7 +11,7 @@ Goals:
 What I created was a BASH, Bourne Again Shell not Shell, to monitor connection traffic to a device that looked like a user's workstation on the netowrk.
 I used [Chris Sanders' Intrusion Detection Honeypot book](https://amzn.to/4eVSe4d) *amazon affiliate link, I earn from qualifying purchases* and [his sample script](https://github.com/chrissanders/idh) as a starting point.
 
-This version was designed and running on Debian 12.
+This version was designed and running on Debian 12, using the [debian netinst iso](https://www.debian.org/CD/netinst/).
 
 ![](header.png)
 

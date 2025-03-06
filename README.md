@@ -16,7 +16,7 @@ This version was designed and running on Debian 12, using the [debian netinst is
 ![](header.png)
 
 ## Installation
-
+No not clone the repo, it is not set up for that at this time.
 Debian Linux:
 
 Install the script under /opt/honeypot

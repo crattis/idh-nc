@@ -1,6 +1,6 @@
-# used to detectin scanning attmepts. Built off IP Tables.
+# used to detectin scanning attempts. Built off IP Tables.
 # requires rsyslog, iptables.
-# sudo apt install iptables rsylog iptables-save 
+# sudo apt install iptables rsyslog 
 
 iptables -I INPUT -p tcp -m state --state NEW -m limit --limit 6/min -j LOG --log-prefix='[iptables_inbound]' --log-level 4
 ip6tables -I INPUT -p tcp -m state --state NEW -m limit --limit 6/min -j LOG --log-prefix='[ip6tables_inbound]' --log-level 4

@@ -1,33 +1,35 @@
 # idh-nc
 Intrusion Detection Honeypot running NetCat in a bash script
 
-I needed a tool to watch for potential internal attacks and easy to deply.
+I needed a tool to watch for potential internal attacks and easy to deploy.
 
 Goals:
 1. The device needed easy to deploy
 2. Needed to detect connections to open ports
 3. small and hideable, that could be left onsite.
 
-What I created was a BASH, Bourne Again Shell not Shell, to monitor connection traffic to a device that looked like a user's workstation on the netowrk.
+What I created was a BASH, Bourne Again Shell not Shell, script to monitor connection traffic to a device that looked like a user's workstation on the network.
 I used [Chris Sanders' Intrusion Detection Honeypot book](https://amzn.to/4eVSe4d) *amazon affiliate link, I earn from qualifying purchases* and [his sample script](https://github.com/chrissanders/idh) as a starting point.
 
-This version was designed and running on Debian 12, using the [debian netinst iso](https://www.debian.org/CD/netinst/).
+This version was designed and runs on Debian 12, using the [debian netinst iso](https://www.debian.org/CD/netinst/). However, the same setup works on a Raspberry Pi (build and updated commits were from a Pi running Pi OS Bookwork). It can be a Raspberry Pi, Virtual Machine, or bare metal. I've run the device on all three platforms. All were Debian-based. Some changes may be needed for other Linux Distributions.
+
+This Repo is more of a walk-through document than a clone and deploy tool.
 
 ![](header.png)
 
 ## Installation
-No not clone the repo, it is not set up for that at this time.
+This is not clone the repo, it is not set up for that at this time. Future TO DO item.
 Debian Linux:
 
-Install the script under /opt/honeypot
+Install (or copy-paste) the honeypot.sh script under /opt/honeypot
 
 ```sh
 chmod 755 /opt/honeypot/honeypot.sh
 mkdir /var/log/honeypot
 ```
-Follow steps in ``firewall_monitoring`` for iptables to montior all inbound connections
+Follow the steps in ``firewall_monitoring`` for iptables to monitor all inbound connections.
 
-If autostarting add ``idh-nc.servce`` to /etc/systemd/system/
+If autostarting, add ``idh-nc.servce`` to /etc/systemd/system/
 ```sh 
 systemctl enable idh-nc.service
 ```
